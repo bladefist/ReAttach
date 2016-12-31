@@ -17,7 +17,7 @@ namespace ReAttach
 		// Commands.
 		public static readonly Guid ReAttachPackageCmdSet = new Guid("3a680c5b-f815-414b-aa4a-0be57dadb1af");
 		public const int ReAttachCommandId = 0x200;
-		public const int ReAttachHistorySize = 5;
+		public const int ReAttachHistorySize = 15;
         public const int BuildBeforeReAttachCommandId = 0x240;
 
 		// Key bindings (used by DTE, not used right now).
